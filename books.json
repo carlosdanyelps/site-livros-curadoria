@@ -1,0 +1,98 @@
+[
+    {
+        "titulo": "O Ser e a Inteligência",
+        "autor": "Santo Alberto Magno",
+        "categoria": "Filosofia",
+        "capa": "covers/o-ser-e-a-inteligencia-alberto-magno.jpg"
+    },
+    {
+        "titulo": "A Divina Comédia",
+        "autor": "Dante Alighieri",
+        "categoria": "Literatura",
+        "capa": "covers/a-divina-comedia-dante-alighieri.jpg"
+    },
+    {
+        "titulo": "Summa Theologica",
+        "autor": "Santo Tomás de Aquino",
+        "categoria": "Teologia",
+        "capa": "covers/summa-theologica-santo-tomas-de-aquino.jpg"
+    },
+    {
+        "titulo": "Ética a Nicômaco",
+        "autor": "Aristóteles",
+        "categoria": "Filosofia",
+        "capa": "covers/etica-a-nicomaco-aristoteles.jpg"
+    },
+    {
+        "titulo": "Dom Quixote",
+        "autor": "Miguel de Cervantes",
+        "categoria": "Clássicos",
+        "capa": "covers/dom-quixote-miguel-de-cervantes.jpg"
+    },
+    {
+        "titulo": "A Metafísica",
+        "autor": "Aristóteles",
+        "categoria": "Filosofia",
+        "capa": "covers/a-metafisica-aristoteles.jpg"
+    },
+    {
+        "titulo": "O Paraíso Perdido",
+        "autor": "John Milton",
+        "categoria": "Literatura",
+        "capa": "covers/o-paraiso-perdido-john-milton.jpg"
+    },
+    {
+        "titulo": "Confissões",
+        "autor": "Santo Agostinho",
+        "categoria": "Teologia",
+        "capa": "covers/confissoes-santo-agostinho.jpg"
+    },
+    {
+        "titulo": "A República",
+        "autor": "Platão",
+        "categoria": "Filosofia",
+        "capa": "covers/a-republica-platao.jpg"
+    },
+    {
+        "titulo": "Os Lusíadas",
+        "autor": "Luís de Camões",
+        "categoria": "Clássicos",
+        "capa": "covers/os-lusiadas-luis-de-camoes.jpg"
+    },
+    {
+        "titulo": "O Príncipe",
+        "autor": "Nicolau Maquiavel",
+        "categoria": "Filosofia",
+        "capa": "covers/o-principe-nicolau-maquiavel.jpg"
+    },
+    {
+        "titulo": "A Cidade de Deus",
+        "autor": "Santo Agostinho",
+        "categoria": "Teologia",
+        "capa": "covers/cidade-de-deus-agostinho.jpg"
+    },
+    {
+        "titulo": "Hamlet",
+        "autor": "William Shakespeare",
+        "categoria": "Literatura",
+        "capa": "covers/hamlet-william-shakespeare.jpg"
+    },
+    {
+        "titulo": "Odisseia",
+        "autor": "Homero",
+        "categoria": "Clássicos",
+        "capa": "covers/odisseia-homero.jpg"
+    },
+    {
+        "titulo": "Leviatâ",
+        "autor": "Thomas Hobbes",
+        "categoria": "Filosofia",
+        "capa": "covers/leviathan-hobbes.jpg"
+    },
+    {
+        "titulo": "A Utopia",
+        "autor": "Thomas More",
+        "categoria": "Literatura",
+        "capa": "covers/utopia-more.jpg"
+    }
+]

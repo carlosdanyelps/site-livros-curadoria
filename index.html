@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ratio Studiorum</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container header-container">
+        <img src="img/icone.png" alt="Ratio Studiorum Logo" class="logo" />
+
+        <nav class="nav">
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Filosofia</a></li>
+            <li><a href="#">Literatura</a></li>
+            <li><a href="#">Autores</a></li>
+            <li><a href="#">Sobre</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <blockquote>
+          “Que o ensino conduza à libertação do espírito pela razão sobre os
+          conhecimentos adquiridos.”
+        </blockquote>
+        <span class="autor">- Jacques Maritain</span>
+
+        <a href="#" class="btn-primary">Explorar obras</a>
+      </div>
+    </section>
+
+    <!-- curadoria -->
+     <section class="curadoria container">
+        <h2>Curadoria Principal</h2>
+        <p class="section-subtitle">Obras que trasformam.</p>
+
+        <div class="categoria-filters">
+            <button class="btn-categorias" data-categoria="todos">Todos</button>
+            <button class="btn-categorias" data-categoria="Filosofia">Filosofia</button>
+            <button class="btn-categorias" data-categoria="Literatura">Literatura</button>
+            <button class="btn-categorias" data-categoria="Teologia">Teologia</button>
+        </div>
+
+        <div class="grid-books">
+            <article class="book-card">
+                <img src="covers/leviathan-hobbes.jpg" alt="Leviatã de Thomas Hobbes" class="book-cover" />
+                <div class="book-info">
+                    <h3>Leviatã</h3>
+                    <p>Thomas Hobbes</p>
+                    <span class="tag">Filosofia</span>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <img src="covers/utopia-more.jpg" alt="Utopia de Thomas More" class="book-cover" />
+                <div class="book-info">
+                    <h3>Utopia</h3>
+                    <p>Thomas More</p>
+                    <span class="tag">Literatura</span>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <img src="covers/cidade-de-deus-agostinho.jpg" alt="Cidade de Deus de Santo Agostinho" class="book-cover" />
+                <div class="book-info">
+                    <h3>Cidade de Deus</h3>
+                    <p>Santo Agostinho</p>
+                    <span class="tag">Teologia</span>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <img src="covers/sermoes-alemaes-eckhart.jpg" alt="Sermões de Mestre Eckhart" class="book-cover" />
+                <div class="book-info">
+                    <h3>Sermões Alemães</h3>
+                    <p>Mestre Eckhart</p>
+                    <span class="tag">Teologia</span>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <img src="covers/vidas-secas-ramos.jpg" alt="Vidas Secas de Graciliano Ramos" class="book-cover" />
+                <div class="book-info">
+                    <h3>Vidas Secas</h3>
+                    <p>Graciliano Ramos</p>
+                    <span class="tag">Literatura</span>
+                </div>
+            </article>
+
+            <article class="book-card">
+                <img src="covers/o-ser-e-a-inteligencia-alberto-magno.jpg" alt="O Ser e a Inteligência de Santo Alberto Magno" class="book-cover" />
+                <div class="book-info">
+                    <h3>O Ser e a Inteligência</h3>
+                    <p>Santo Alberto Magno</p>
+                    <span class="tag">Filosofia</span>
+                </div>
+            </article>
+        </div>
+     </section>
+
+     <section class="categorias">
+        <div class="container categorias-grid">
+            <div class="categorias-card">
+                <h3>Filosofia</h3>
+                <p>A sabedoria, o caminho para a verdade.</p>
+            </div>
+            
+            <div class="categorias-card">
+                <h3>Literatura</h3>
+                <p>A narrativa que revela a alma.</p>
+            </div>
+
+            <div class="categorias-card">
+                <h3>Teologia</h3>
+                <p>A estrutura divina do Ser.</p>
+            </div>
+
+            <div class="categorias-card">
+                <h3>Clássicos</h3>
+                <p>Obras que atravessam gerações.</p>
+            </div>
+        </div>
+     </section>
+
+     <!-- destaque autor -->
+
+     <section class="destaque container">
+        <div class="destaque-grid">
+            <div class="destaque-img">
+                <img src="img/edith-stein.jpg" alt="Edith Stein">
+            </div>
+
+            <div class="destaque-content">
+                <h2>Edith Stein</h2>
+                <p>
+                    A filósofa que uniu a filosofia e a teologia.
+                </p>
+
+                <a href="#" class="btn-secondary">Ver obras</a>
+            </div>
+        </div>
+     </section>
+
+     <!-- linha do tempo -->
+      <section class="timeline container">
+        <h2>Linha do Tempo</h2>
+
+        <div class="timeline-line">
+            <div class="timeline-item">
+                <span class="year">384-322 a.C.</span>
+                <p>Aristóteles</p>
+            </div>
+
+            <div class="timeline-item">
+                <span class="year">1225-1274</span>
+                <p>Santo Tomás de Aquino</p>
+            </div>
+
+            <div class="timeline-item">
+                <span class="year">1596-1650</span>
+                <p>René Descartes</p>
+            </div>
+
+            <div class="timeline-item">
+                <span class="year">1844-1900</span>
+                <p>Friedrich Nietzsche</p>
+            </div>
+        </div>
+      </section>
+
+      <!-- newsletter  -->
+       <section class="newsletter">
+        <div class="container newsletter-content">
+            <h2>Receba recomendações semanais</h2>
+            <p>Novas obras, autores e ideias.</p>
+
+            <form>
+                <input type="email" placeholder="Seu e-mail">
+                <button type="submit">Assinar</button>
+            </form>
+        </div>
+       </section>
+
+       <!-- footer -->
+        <footer class="footer">
+            <div class="container footer-grid">
+                <div>
+                    <h3>Ratio Studiorum</h3>
+                    <p>Uma comunidade de estudiosos e entusiastas da sabedoria.</p>
+                </div>
+
+                <div>
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Filosofia</a></li>
+                        <li><a href="#">Autores</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contato</h4>
+                    <p>Email: carlosdanyel705@gmail.com</p>
+                </div>
+
+            </div>
+            <p class="copyright">© 2026 Ratio Studiorum - Carlos Danyel IFPR.</p>
+        </footer>
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
